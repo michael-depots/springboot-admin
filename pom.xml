@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.teapot</groupId>
-    <artifactId>teapot</artifactId>
+    <groupId>com.coffeepot</groupId>
+    <artifactId>coffeepot</artifactId>
     <version>3.7.0</version>
 
-    <name>teapot</name>
+    <name>coffeepot</name>
     <url>http://www.ruoyi.vip</url>
-    <description>若依管理系统</description>
+    <description>咖啡壶管理系统</description>
     
     <properties>
-        <teapot.version>3.7.0</teapot.version>
+        <coffeepot.version>3.7.0</coffeepot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -172,49 +172,49 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.teapot</groupId>
-                <artifactId>teapot-quartz</artifactId>
-                <version>${teapot.version}</version>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>coffeepot-quartz</artifactId>
+                <version>${coffeepot.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.teapot</groupId>
-                <artifactId>teapot-generator</artifactId>
-                <version>${teapot.version}</version>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>coffeepot-generator</artifactId>
+                <version>${coffeepot.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.teapot</groupId>
-                <artifactId>teapot-framework</artifactId>
-                <version>${teapot.version}</version>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>coffeepot-framework</artifactId>
+                <version>${coffeepot.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.teapot</groupId>
-                <artifactId>teapot-system</artifactId>
-                <version>${teapot.version}</version>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>coffeepot-system</artifactId>
+                <version>${coffeepot.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.teapot</groupId>
-                <artifactId>teapot-common</artifactId>
-                <version>${teapot.version}</version>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>coffeepot-common</artifactId>
+                <version>${coffeepot.version}</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>teapot-admin</module>
-        <module>teapot-framework</module>
-        <module>teapot-system</module>
-        <module>teapot-quartz</module>
-        <module>teapot-generator</module>
-        <module>teapot-common</module>
+        <module>coffeepot-admin</module>
+        <module>coffeepot-framework</module>
+        <module>coffeepot-system</module>
+        <module>coffeepot-quartz</module>
+        <module>coffeepot-generator</module>
+        <module>coffeepot-common</module>
     </modules>
     <packaging>pom</packaging>
 
