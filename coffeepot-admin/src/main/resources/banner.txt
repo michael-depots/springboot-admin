@@ -1,4 +1,4 @@
-Application Version: ${ruoyi.version}
+Application Version: ${coffeepot.version}
 Spring Boot Version: ${spring-boot.version}
 #                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.
 #             __.'              ~.   .~              `.__
