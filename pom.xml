@@ -212,6 +212,13 @@
                 <version>${coffeepot.version}</version>
             </dependency>
 
+            <!-- SpringBoot 组件集成Demo -->
+            <dependency>
+                <groupId>com.coffeepot</groupId>
+                <artifactId>springboot-demo</artifactId>
+                <version>${coffeepot.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -223,6 +230,7 @@
         <module>coffeepot-generator</module>
         <module>coffeepot-common</module>
         <module>coffeepot-product</module>
+        <module>springboot-demo</module>
     </modules>
     <packaging>pom</packaging>
 

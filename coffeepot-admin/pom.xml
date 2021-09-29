@@ -65,7 +65,12 @@
         <dependency>
             <groupId>com.coffeepot</groupId>
             <artifactId>coffeepot-product</artifactId>
-            <version>${coffeepot.version}</version>
+        </dependency>
+
+        <!-- SpringBoot 组件集成Demo -->
+        <dependency>
+            <groupId>com.coffeepot</groupId>
+            <artifactId>springboot-demo</artifactId>
         </dependency>
 
     </dependencies>
