@@ -61,6 +61,13 @@
             <artifactId>coffeepot-generator</artifactId>
         </dependency>
 
+        <!-- 产品模块 -->
+        <dependency>
+            <groupId>com.coffeepot</groupId>
+            <artifactId>coffeepot-product</artifactId>
+            <version>${coffeepot.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
