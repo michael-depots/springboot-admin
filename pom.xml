@@ -205,13 +205,6 @@
                 <version>${commerce.version}</version>
             </dependency>
 
-            <!-- 产品模块 -->
-            <dependency>
-                <groupId>emp.novabeyond</groupId>
-                <artifactId>commerce-product</artifactId>
-                <version>${commerce.version}</version>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -222,7 +215,6 @@
         <module>commerce-quartz</module>
         <module>commerce-generator</module>
         <module>commerce-common</module>
-        <module>commerce-product</module>
     </modules>
     <packaging>pom</packaging>
 

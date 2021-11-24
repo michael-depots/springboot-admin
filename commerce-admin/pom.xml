@@ -61,12 +61,6 @@
             <artifactId>commerce-generator</artifactId>
         </dependency>
 
-        <!-- 产品模块 -->
-        <dependency>
-            <groupId>emp.novabeyond</groupId>
-            <artifactId>commerce-product</artifactId>
-        </dependency>
-
     </dependencies>
 
     <build>
