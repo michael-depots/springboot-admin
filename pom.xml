@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.coffeepot</groupId>
-    <artifactId>coffeepot</artifactId>
+    <groupId>emp.novabeyond</groupId>
+    <artifactId>commerce</artifactId>
     <version>3.7.0</version>
 
-    <name>coffeepot</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>咖啡壶管理系统</description>
+    <name>emp</name>
+    <url>http://emp.novabeyond.com</url>
+    <description>EMP管理系统</description>
 
     <properties>
-        <coffeepot.version>3.7.0</coffeepot.version>
+        <commerce.version>3.7.0</commerce.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -172,65 +172,57 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-quartz</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-quartz</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-generator</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-generator</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-framework</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-framework</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-system</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-system</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-common</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-common</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
             <!-- 产品模块 -->
             <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>coffeepot-product</artifactId>
-                <version>${coffeepot.version}</version>
-            </dependency>
-
-            <!-- SpringBoot 组件集成Demo -->
-            <dependency>
-                <groupId>com.coffeepot</groupId>
-                <artifactId>springboot-demo</artifactId>
-                <version>${coffeepot.version}</version>
+                <groupId>emp.novabeyond</groupId>
+                <artifactId>commerce-product</artifactId>
+                <version>${commerce.version}</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>coffeepot-admin</module>
-        <module>coffeepot-framework</module>
-        <module>coffeepot-system</module>
-        <module>coffeepot-quartz</module>
-        <module>coffeepot-generator</module>
-        <module>coffeepot-common</module>
-        <module>coffeepot-product</module>
-        <module>springboot-demo</module>
+        <module>commerce-admin</module>
+        <module>commerce-framework</module>
+        <module>commerce-system</module>
+        <module>commerce-quartz</module>
+        <module>commerce-generator</module>
+        <module>commerce-common</module>
+        <module>commerce-product</module>
     </modules>
     <packaging>pom</packaging>
 
